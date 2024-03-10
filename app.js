@@ -5,8 +5,8 @@ var download32 = document.getElementsByClassName('download')[0];
 downloadButton.innerHTML = os ? "[Windows 下载]" : "暂时不可下载";
 
 if(os) {
-    download32.setAttribute('href','data\\下载包-Beta-x86.exe');
-    downloadButton.setAttribute('href','data\\下载包-Beta.exe');
+    download32.setAttribute('href','https://github.com/gokiburiSoldier/GS_repo_exe/releases/download/v1.14.514/-Beta-x86.exe');
+    downloadButton.setAttribute('href','https://github.com/gokiburiSoldier/GS_repo_exe/releases/download/v1.14.514/-Beta.exe');
 }
 
 var genshinBtn = document.querySelector('.top span');
