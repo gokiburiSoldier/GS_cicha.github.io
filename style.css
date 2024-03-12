@@ -99,3 +99,10 @@ div span {
     display: block;
     text-indent: 2em;
 }
+
+body>span {
+    display: block;
+    text-align: cneter;
+    color: #1A1A1A;
+    font-size: 20px;
+}
