@@ -1,6 +1,6 @@
 @font-face {
     font-family: "song-ti";
-    src: url("data/SimSun-01.ttf") format("truetype");
+    src: url("data/SIMSUN.ttf") format("truetype");
 }
 
 * {
@@ -111,4 +111,10 @@ div span {
     color: #1A1A1A;
     font-size: 28px;
     font-family: "song-ti";
+}
+
+body iframe {
+    position: fixed;
+    right: 0px;
+    top: 0px;
 }
