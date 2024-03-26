@@ -3,6 +3,10 @@
     src: url("data/SIMSUN.ttf") format("truetype");
 }
 
+:root {
+    --color: #00C1C1;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +24,7 @@ body {
 .top {
     width: 100%;
     height: 240px;
-    background-color: #00C1C1;
+    background-color: var(--color);
 }
 
 .top span {
@@ -117,4 +121,8 @@ body iframe {
     position: fixed;
     right: 0px;
     top: 0px;
+}
+
+em {
+    color: var(--color);
 }
